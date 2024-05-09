@@ -1,0 +1,10 @@
+[package]
+name = "text_splitter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.25.0"
+egui = "0.25.0"
+rfd = "0.14.1"
+winapi = { version = "0.3.9", features = ["windef", "winuser"] }
